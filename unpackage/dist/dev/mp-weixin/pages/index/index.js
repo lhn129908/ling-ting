@@ -12,7 +12,21 @@
 /* 10 */,
 /* 11 */,
 /* 12 */,
-/* 13 */,
+/* 13 */
+/*!*********************************************************************!*\
+  !*** F:/LingTing/LingTing/main.js?{"page":"pages%2Findex%2Findex"} ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 1);
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 8));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/index/index.vue */ 14));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/uni.mp.esm.js */ 12)["createPage"]))
+
+/***/ }),
 /* 14 */
 /*!**************************************************!*\
   !*** F:/LingTing/LingTing/pages/index/index.vue ***!
@@ -136,23 +150,6 @@ var _default =
   },
   methods: {} };exports.default = _default;
 
-/***/ }),
-/* 19 */,
-/* 20 */,
-/* 21 */
-/*!*********************************************************************!*\
-  !*** F:/LingTing/LingTing/main.js?{"page":"pages%2Findex%2Findex"} ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 1);
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 8));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/index/index.vue */ 14));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_index.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/uni.mp.esm.js */ 12)["createPage"]))
-
 /***/ })
-],[[21,"common/runtime","common/vendor"]]]);
+],[[13,"common/runtime","common/vendor"]]]);
 //# sourceMappingURL=../../../.sourcemap/mp-weixin/pages/index/index.js.map
