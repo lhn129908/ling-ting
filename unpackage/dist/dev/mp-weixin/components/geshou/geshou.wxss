@@ -1,0 +1,38 @@
+.GeShou .GeShou-people {
+  margin: 2rem 4rem 1rem 3rem;
+  border-bottom: 0.001rem dashed #9c9191;
+  display: flex;
+  justify-content: space-between;
+}
+.GeShou .GeShou-people image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.973rem;
+  margin-bottom: 1rem;
+}
+.GeShou .GeShou-people .GeShou-title {
+  margin-top: 0.5rem;
+}
+.GeShou .GeShou-people .GeShou-guan {
+  font-size: 0.5rem;
+  border: 0.5rpx solid #e79c9c;
+  height: 1.5rem;
+  width: 3rem;
+  line-height: 1.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  color: #e79c9c;
+  margin-top: 0.5rem;
+}
+.GeShou .GeShou-people .is_checked {
+  font-size: 0.5rem;
+  border: 0.5rpx solid #888686;
+  height: 1.5rem;
+  width: 3.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  color: #888686;
+  margin-top: 0.5rem;
+}
+

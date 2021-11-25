@@ -71,7 +71,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="less">
 	/* #ifndef APP-NVUE */
 	@import './uniicons.css';
 	@font-face {

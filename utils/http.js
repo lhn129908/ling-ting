@@ -34,3 +34,6 @@ export function requestPost(url, data) {
 		})
 	})
 }
+
+export const HotSearchURL = "/search/hot"    //GET
+export const FuzzySearchURL = "/search"     //GET 

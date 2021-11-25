@@ -1,0 +1,22 @@
+.ZhuanJi .ZhuanJi1 {
+  margin: 1.5rem 2rem 1rem 1.5rem;
+  display: flex;
+}
+.ZhuanJi .ZhuanJi1 .zhuan-image {
+  flex: 2;
+  border-radius: 20rpx ;
+}
+.ZhuanJi .ZhuanJi1 .zhuan-name {
+  flex: 8;
+  margin-left: 1rem;
+}
+.ZhuanJi .ZhuanJi1 .zhuan-name :nth-child(1) {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.ZhuanJi .ZhuanJi1 .zhuan-name :nth-child(2) {
+  margin-top: 1rem;
+  font-size: 0.5rem;
+  color: #e79c9c;
+}
+
