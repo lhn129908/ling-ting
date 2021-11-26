@@ -1,0 +1,30 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/danmore/danmore",
+                    "pathName": "pages/danmore/danmore",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/mvmore/mvmore",
+                    "pathName": "pages/mvmore/mvmore",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

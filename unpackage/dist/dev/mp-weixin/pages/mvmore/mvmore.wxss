@@ -1,0 +1,81 @@
+.title {
+  text-align: center;
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 60%;
+  margin-left: 20%;
+  font-size: 32rpx;
+  color: #f87373;
+}
+.tab-select {
+  width: 100%;
+}
+.tab-select .tab-item {
+  display: inline-block;
+  width: 20%;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #6b6b6b;
+}
+.active {
+  box-sizing: border-box;
+  color: #f87373 !important;
+}
+.mv {
+  width: 100%;
+  margin-top: 30rpx;
+}
+.mv .mv_content {
+  display: inline-block;
+  width: 33.33%;
+  height: 260rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.mv .mv_content .mv_image {
+  position: relative;
+  width: 90%;
+  margin-left: 5%;
+  height: 170rpx;
+  border: 1rpx solid #cccccc;
+}
+.mv .mv_content .mv_image .mv_imge_big {
+  position: absolute;
+  width: 100%;
+  height: 170rpx;
+}
+.mv .mv_content .mv_image .mv_imge_zhe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #dddddd93;
+}
+.mv .mv_content .mv_image .mv_imge_small {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  margin: 8% 10%;
+  border-radius: 10rpx;
+  border: 1px solid white;
+}
+.mv .mv_content .mv_text {
+  margin-left: 20rpx;
+}
+.mv .mv_content .mv_text .mv_text_title {
+  width: 100%;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /* 指定显示文本的行数 */
+  overflow: hidden;
+  /* 超出隐藏 */
+}
+.mv .mv_content .mv_text .mv_text_name {
+  font-size: 10px;
+  color: #cac7c7;
+}
+

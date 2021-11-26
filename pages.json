@@ -101,8 +101,8 @@
 			"text": "首页"
 		}, {
 			"pagePath": "pages/control/control",
-			"iconPath": "",
-			"selectedIconPath": "",
+			"iconPath": "static/bo.png",
+			"selectedIconPath": "static/bo.png",
 			"text": "正在播放"
 		}, {
 			"pagePath": "pages/my/my",

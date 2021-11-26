@@ -34,3 +34,20 @@ export function requestPost(url, data) {
 		})
 	})
 }
+
+// 轮播图数据接口
+export const LunboURL = "/banner?type=2"
+//推荐歌单数据接口
+export const TuiDan="/personalized?limit=12"
+// 推荐新歌数据接口
+export const TuiXin="/personalized/newsong"
+// 推荐mv数据接口
+export const TuiMv="/personalized/mv"
+// 排行榜单数据接口
+export const PaiHang="/toplist/detail"
+// 全部mv数据接口
+export const Mv="/mv/all"
+// 歌单分类数据接口
+export const DanLei="/playlist/catlist"
+// 歌单数据接口
+export const Dan="/top/playlist"
