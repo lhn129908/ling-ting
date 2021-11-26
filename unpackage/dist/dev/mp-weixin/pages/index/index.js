@@ -358,7 +358,7 @@ var _http = __webpack_require__(/*! @/utils/http.js */ 22);function _interopRequ
     },
     songclick: function songclick(id) {
       console.log(id);
-      uni.switchTab({
+      uni.navigateTo({
         url: "/pages/control/control?id=".concat(id) });
 
     } } };exports.default = _default;

@@ -219,7 +219,7 @@
 			},
 			songclick(id){
 				console.log(id);
-				uni.switchTab({
+				uni.navigateTo({
 					url:`/pages/control/control?id=${id}`
 				})
 			}

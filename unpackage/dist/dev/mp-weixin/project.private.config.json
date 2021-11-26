@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "setting": {},
     "condition": {
         "plugin": {
@@ -27,4 +28,34 @@
             ]
         }
     }
+=======
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "name=删了吧",
+          "scene": null
+        },
+        {
+          "name": "pages/sou/sou",
+          "pathName": "pages/sou/sou",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+>>>>>>> dou_ting_ting
 }

@@ -51,3 +51,8 @@ export const Mv="/mv/all"
 export const DanLei="/playlist/catlist"
 // 歌单数据接口
 export const Dan="/top/playlist"
+
+
+export const HotSearchURL = "/search/hot"    //GET
+export const FuzzySearchURL = "/search"     //GET 
+

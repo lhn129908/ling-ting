@@ -1,0 +1,43 @@
+.hide {
+  display: none;
+}
+.uni-popup-message {
+  text-align: center;
+}
+/* 搜索框样式 */
+.search-all .search-kuang {
+  display: flex;
+  border: 0.0125rem solid #f87373;
+  margin: 0.5rem 2rem 0 2rem;
+  height: 60rpx;
+  border-radius: 30rpx 30rpx 30rpx 30rpx;
+  line-height: 60rpx;
+}
+.search-all .search-kuang .input {
+  flex: 5;
+  margin-left: 2rem;
+  margin-top: 0.25rem;
+}
+.search-all .search-kuang .button {
+  flex: 1;
+  background-color: #f87373;
+  border-radius: 0rpx 30rpx 30rpx 0rpx;
+  text-align: center;
+  color: #f1f1f1;
+}
+.search-all .tabQ {
+  margin: 30rpx 50rpx;
+  display: flex;
+}
+.search-all .tabQ .tabH {
+  flex: 1;
+  border: 1px solid #f87373;
+  text-align: center;
+}
+.search-all .tabQ .tabHred {
+  flex: 1;
+  border: 1px solid #f87373;
+  text-align: center;
+  background-color: #f87373;
+}
+
