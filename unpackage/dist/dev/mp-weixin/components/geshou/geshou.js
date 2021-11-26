@@ -147,9 +147,11 @@ var _default =
   },
 
   methods: {
-    clickGuan: function clickGuan(index) {
+    clickGuan: function clickGuan(index, id) {
       // 子组件把index数据传给父组件
       this.$emit("showCityName", index);
+      getApp().globalData.geshouId = id;
+      console.log(id);
     } } };exports.default = _default;
 
 /***/ }),

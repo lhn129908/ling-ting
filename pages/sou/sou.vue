@@ -9,14 +9,14 @@
 			<view class="button" @click="sou">搜索</view>
 		</view>
 
-		<!-- 重写的模糊搜索后的歌名 -->
+		<!-- 重写的模糊搜索后的歌名  -->
 		<template v-if="viewShowed">
 			<view class="search-name">搜索：{{inputValue}}</view>
 			<scroll-view class='scroll-view' scroll-y>
-				<view v-for="(item,index) in fuzzySearch" :key="index" class="msg-item">
+				<view v-for="(item,index) in fuzzySearch" :key="index" class="msg-item" @click="sou">
 					<uni-icons type="search" size="20" class="searchIcon"></uni-icons>
 					<view class='user-name'>{{item.name}}--</view>
-					<view class="user-title">{{item.artists[0].name}}</view>
+					<view class="user-title">{{item.artists[0].name}}</view>s
 				</view>
 			</scroll-view>
 		</template>

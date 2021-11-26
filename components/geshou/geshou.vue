@@ -7,7 +7,7 @@
 				{{item.name}}
 			</view>
 			<!-- 子组件中设置关注 -->
-			<view class="GeShou-guan" @click="clickGuan(index)" :class="item.followed === clickIndex?'is_checked':'GeShou-guan'">
+			<view class="GeShou-guan" @click="clickGuan(index,item.id)" :class="item.followed === clickIndex?'is_checked':'GeShou-guan'">
 				<template v-if="item.followed === clickIndex">
 					√已关注
 				</template>
@@ -31,9 +31,11 @@
 		},
 			
 		methods:{
-			clickGuan(index){
+			clickGuan(index,id){
 				// 子组件把index数据传给父组件
-				 this.$emit("showCityName",index)
+				this.$emit("showCityName",index)
+				getApp().globalData.geshouId=id;
+				console.log(id)
 			}
 		}
 	}

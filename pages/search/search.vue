@@ -89,7 +89,6 @@
 				this.geShouShowed = true
 				this.oneself = 1
 				this.getFuzzySearch()
-				console.log("我是单曲")
 			},
 			zhuanJi() {
 				this.backgroundcolor = true
@@ -98,7 +97,6 @@
 				this.geShouShowed = true
 				this.oneself = 10
 				this.getFuzzySearch()
-				console.log("我是专辑")
 			},
 			geShou() {
 				this.backgroundcolor = true
@@ -107,7 +105,6 @@
 				this.zhuanJiShowed = true
 				this.oneself = 100
 				this.getFuzzySearch()
-				console.log("我是歌手")
 				console.log(this.delivery)
 			},
 			sousuo() {

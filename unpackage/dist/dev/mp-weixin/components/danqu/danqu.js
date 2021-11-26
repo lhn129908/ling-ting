@@ -137,7 +137,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -162,14 +162,18 @@ var _default =
   props: ['delivery'],
   name: "danqu",
   data: function data() {
-    return {
-      // msg:"单曲",
-      // msgname:"大白鸽"
-      // this.danqu = result.result.songs;
-      // this.zhuanji = result.result.albums;
-      // this.geshou= result.result.artists;
-    };
-  } };exports.default = _default;
+    return {};
+
+
+  },
+  methods: {
+    danquclick: function danquclick(id) {
+      console.log(id);
+      uni.navigateTo({
+        url: "/pages/control/control?id=".concat(id) });
+
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! @dcloudio/uni-mp-weixin/dist/uni.api.esm.js */ 9)["default"]))
 
 /***/ }),
 

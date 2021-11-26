@@ -1,6 +1,4 @@
 {
-<<<<<<< HEAD
-    "setting": {},
     "condition": {
         "plugin": {
             "list": []
@@ -14,48 +12,12 @@
         "miniprogram": {
             "list": [
                 {
-                    "name": "pages/danmore/danmore",
-                    "pathName": "pages/danmore/danmore",
-                    "query": "",
-                    "scene": null
-                },
-                {
-                    "name": "pages/mvmore/mvmore",
-                    "pathName": "pages/mvmore/mvmore",
+                    "name": "pages/index/index",
+                    "pathName": "pages/index/index",
                     "query": "",
                     "scene": null
                 }
             ]
         }
     }
-=======
-  "setting": {},
-  "condition": {
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
-    "miniprogram": {
-      "list": [
-        {
-          "name": "pages/search/search",
-          "pathName": "pages/search/search",
-          "query": "name=删了吧",
-          "scene": null
-        },
-        {
-          "name": "pages/sou/sou",
-          "pathName": "pages/sou/sou",
-          "query": "",
-          "scene": null
-        }
-      ]
-    }
-  }
->>>>>>> dou_ting_ting
 }

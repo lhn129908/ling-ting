@@ -1,7 +1,7 @@
 <template>
 
 	<view class="DanQu">
-		<view class="DanQu-sing" v-for="item in delivery.songs" :key="item.id">
+		<view class="DanQu-sing" v-for="item in delivery.songs" :key="item.id" @click="danquclick(item.id)">
 			<view class="DanQu-left">
 				<view>
 					{{item.name}}
@@ -24,12 +24,16 @@
 		name: "danqu",
 		data() {
 			return {
-				// msg:"单曲",
-				// msgname:"大白鸽"
-				// this.danqu = result.result.songs;
-				// this.zhuanji = result.result.albums;
-				// this.geshou= result.result.artists;
+				
 			};
+		},
+		methods:{
+			danquclick(id){
+				console.log(id);
+				uni.navigateTo({
+					url:`/pages/control/control?id=${id}`
+				})
+			},
 		}
 	}
 </script>

@@ -1,7 +1,7 @@
 <template>
 	<view class="ZhuanJi">
 		<!-- 专辑 -->
-			<view class="ZhuanJi1" v-for="item in delivery.albums" :key="item.id">
+			<view class="ZhuanJi1" v-for="item in delivery.albums" :key="item.id" @click="zhuanjiclick(item.id)">
 				<image class="zhuan-image" mode="widthFix" :src="item.picUrl"></image>
 				<view class="zhuan-name">
 				  <view>{{item.name}}</view>
@@ -18,11 +18,14 @@
 		name:"zhuanji",
 		data() {
 			return {
-				// ms:"专辑",
-				// this.danqu = result.result.songs;
-				// this.zhuanji = result.result.albums;
-				// this.geshou= result.result.artists;
 			};
+		},
+		methods:{
+			zhuanjiclick(id){
+				uni.navigateTo({
+					url:`/pages/gedan/gedan?id=${id}`
+				})
+			}
 		}
 	}
 </script>

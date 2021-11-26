@@ -256,7 +256,6 @@ var _http = __webpack_require__(/*! @/utils/http.js */ 22);function _interopRequ
       this.geShouShowed = true;
       this.oneself = 1;
       this.getFuzzySearch();
-      console.log("我是单曲");
     },
     zhuanJi: function zhuanJi() {
       this.backgroundcolor = true;
@@ -265,7 +264,6 @@ var _http = __webpack_require__(/*! @/utils/http.js */ 22);function _interopRequ
       this.geShouShowed = true;
       this.oneself = 10;
       this.getFuzzySearch();
-      console.log("我是专辑");
     },
     geShou: function geShou() {
       this.backgroundcolor = true;
@@ -274,7 +272,6 @@ var _http = __webpack_require__(/*! @/utils/http.js */ 22);function _interopRequ
       this.zhuanJiShowed = true;
       this.oneself = 100;
       this.getFuzzySearch();
-      console.log("我是歌手");
       console.log(this.delivery);
     },
     sousuo: function sousuo() {
