@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
+=======
+    "setting": {},
+>>>>>>> wang_cong_wei
     "condition": {
         "plugin": {
             "list": []
@@ -12,10 +16,41 @@
         "miniprogram": {
             "list": [
                 {
+<<<<<<< HEAD
                     "name": "pages/index/index",
                     "pathName": "pages/index/index",
                     "query": "",
                     "scene": null
+=======
+                    "name": "pages/gedan/gedan",
+                    "pathName": "pages/gedan/gedan",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/gedan/gedan",
+                    "pathName": "pages/gedan/gedan",
+                    "query": "id=979321026",
+                    "scene": null
+                },
+                {
+                    "name": "pages/video/video",
+                    "pathName": "pages/video/video",
+                    "query": "mvid=5436712",
+                    "scene": null
+                },
+                {
+                    "name": "pages/video/video",
+                    "pathName": "pages/video/video",
+                    "query": "id=11111",
+                    "scene": null
+                },
+                {
+                    "name": "pages/zhuanji/zhuanji",
+                    "pathName": "pages/zhuanji/zhuanji",
+                    "query": "id=11115",
+                    "scene": null
+>>>>>>> wang_cong_wei
                 }
             ]
         }

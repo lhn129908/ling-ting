@@ -141,13 +141,16 @@ var _default =
       id: null };
 
   },
-  onLoad: function onLoad(options) {
+  onLoad: function onLoad(options, e) {
     this.id = options.id;
     console.log(this.id);
+    console.log(e);
+    console.log(JSON.parse(e.liebiao));
   },
-  created: function created() {
-
-  },
+  // onLoad(e) {
+  // 	console.log(e)
+  // 	console.log(JSON.parse(e.liebiao) )
+  // },
   methods: {} };exports.default = _default;
 
 /***/ })

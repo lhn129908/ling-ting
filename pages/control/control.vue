@@ -11,13 +11,16 @@
 				id:null
 			}
 		},
-		onLoad(options) {
+		onLoad(options,e) {
 			this.id=options.id
 			console.log(this.id)
+			console.log(e)
+			console.log(JSON.parse(e.liebiao) )
 		},
-		created() {
-			
-		},
+		// onLoad(e) {
+		// 	console.log(e)
+		// 	console.log(JSON.parse(e.liebiao) )
+		// },
 		methods: {
 			
 		}

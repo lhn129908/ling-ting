@@ -697,7 +697,7 @@ const getGlobalThis = () => {
 
 /***/ }),
 
-/***/ 110:
+/***/ 116:
 /*!********************************************************************************!*\
   !*** F:/LingTing/LingTing/uni_modules/uni-icons/components/uni-icons/icons.js ***!
   \********************************************************************************/
@@ -2497,7 +2497,7 @@ function initData(vueOptions) {
       data = data.call(appConfig.globalProperties);
     }
     catch (e) {
-      if (Object({"NODE_ENV":"development","VUE_APP_NAME":"LingTing","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_NAME":"LingTing","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data, e);
       }
     }
@@ -3014,7 +3014,7 @@ wx.createComponent = createComponent;
 
 /***/ }),
 
-/***/ 125:
+/***/ 145:
 /*!********************************************************************************!*\
   !*** F:/LingTing/LingTing/uni_modules/uni-popup/components/uni-popup/popup.js ***!
   \********************************************************************************/
@@ -3049,7 +3049,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 
-/***/ 154:
+/***/ 181:
 /*!****************************************************************************************************!*\
   !*** F:/LingTing/LingTing/uni_modules/uni-transition/components/uni-transition/createAnimation.js ***!
   \****************************************************************************************************/
@@ -3988,7 +3988,7 @@ if (hadRuntime) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.requestGet = requestGet;exports.requestPost = requestPost;exports.FuzzySearchURL = exports.HotSearchURL = exports.Dan = exports.DanLei = exports.Mv = exports.PaiHang = exports.TuiMv = exports.TuiXin = exports.TuiDan = exports.LunboURL = void 0;var baseUrl = "http://101.35.3.52";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.requestGet = requestGet;exports.requestPost = requestPost;exports.simiURL = exports.simiURLH5 = exports.mvURL = exports.mvURLH5 = exports.tjURL = exports.tjURLH5 = exports.ListsURL = exports.ListsURLH5 = exports.FuzzySearchURL = exports.HotSearchURL = exports.Dan = exports.DanLei = exports.Mv = exports.PaiHang = exports.TuiMv = exports.TuiXin = exports.TuiDan = exports.LunboURL = void 0;var baseUrl = "http://101.35.3.52";
 
 function requestGet(url, data) {
   return new Promise(function (resolve, reject) {
@@ -4046,6 +4046,15 @@ exports.DanLei = DanLei;var Dan = "/top/playlist";exports.Dan = Dan;
 var HotSearchURL = "/search/hot"; //GET
 exports.HotSearchURL = HotSearchURL;var FuzzySearchURL = "/search"; //GET 
 exports.FuzzySearchURL = FuzzySearchURL;
+
+var ListsURLH5 = "/album";exports.ListsURLH5 = ListsURLH5;
+var ListsURL = "http://101.35.3.52/album";exports.ListsURL = ListsURL;
+var tjURLH5 = "/playlist/detail";exports.tjURLH5 = tjURLH5;
+var tjURL = "http://101.35.3.52/playlist/detail";exports.tjURL = tjURL;
+var mvURLH5 = "/mv/detail";exports.mvURLH5 = mvURLH5;
+var mvURL = "http://101.35.3.52/mv/detail";exports.mvURL = mvURL;
+var simiURLH5 = "/simi/mv";exports.simiURLH5 = simiURLH5;
+var simiURL = "http://101.35.3.52/simi/mv";exports.simiURL = simiURL;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! @dcloudio/uni-mp-weixin/dist/uni.api.esm.js */ 9)["default"]))
 
 /***/ }),
@@ -8719,7 +8728,7 @@ function flushCallbacks(instance) {
     const ctx = instance.ctx;
     const callbacks = ctx.__next_tick_callbacks;
     if (callbacks && callbacks.length) {
-        if (Object({"NODE_ENV":"development","VUE_APP_NAME":"LingTing","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"VUE_APP_NAME":"LingTing","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
             const mpInstance = ctx.$scope;
             console.log('[' +
                 +new Date() +
@@ -8741,7 +8750,7 @@ function flushCallbacks(instance) {
 function nextTick$1(instance, fn) {
     const ctx = instance.ctx;
     if (!ctx.__next_tick_pending && !hasComponentEffect(instance)) {
-        if (Object({"NODE_ENV":"development","VUE_APP_NAME":"LingTing","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"VUE_APP_NAME":"LingTing","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
             const mpInstance = ctx.$scope;
             console.log('[' +
                 +new Date() +
@@ -8753,7 +8762,7 @@ function nextTick$1(instance, fn) {
         }
         return nextTick(fn && fn.bind(instance.proxy));
     }
-    if (Object({"NODE_ENV":"development","VUE_APP_NAME":"LingTing","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+    if (Object({"VUE_APP_NAME":"LingTing","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         const mpInstance = ctx.$scope;
         console.log('[' +
             +new Date() +
@@ -8833,7 +8842,7 @@ function patch(instance) {
         // data.__webviewId__ = mpInstance.data.__webviewId__
         const diffData = diff(data, getMPInstanceData(mpInstance, keys));
         if (Object.keys(diffData).length) {
-            if (Object({"NODE_ENV":"development","VUE_APP_NAME":"LingTing","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+            if (Object({"VUE_APP_NAME":"LingTing","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
                 console.log('[' +
                     +new Date() +
                     '][' +

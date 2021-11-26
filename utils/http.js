@@ -56,3 +56,12 @@ export const Dan="/top/playlist"
 export const HotSearchURL = "/search/hot"    //GET
 export const FuzzySearchURL = "/search"     //GET 
 
+
+export const ListsURLH5="/album"
+export const ListsURL = "http://101.35.3.52/album" 
+export const tjURLH5 ="/playlist/detail"
+export const tjURL = "http://101.35.3.52/playlist/detail"
+export const mvURLH5 = "/mv/detail"
+export const mvURL="http://101.35.3.52/mv/detail"
+export const simiURLH5 = "/simi/mv"
+export const simiURL="http://101.35.3.52/simi/mv"
