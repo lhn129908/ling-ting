@@ -99,12 +99,7 @@
 			"iconPath": "static/home.png",
 			"selectedIconPath": "static/home.png",
 			"text": "首页"
-		}, {
-			"pagePath": "pages/control/control",
-			"iconPath": "",
-			"selectedIconPath": "",
-			"text": "正在播放"
-		}, {
+		},  {
 			"pagePath": "pages/my/my",
 			"iconPath": "static/my.png",
 			"selectedIconPath": "static/my.png",
