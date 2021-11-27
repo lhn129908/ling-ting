@@ -10,6 +10,7 @@
 			"style": {
 				"navigationBarTitleText": "播放 "
 			}
+			
 		},
 		{
 			"path": "pages/my/my",
@@ -78,6 +79,7 @@
 			}
 		}
 	],
+	"requiredBackgroundModes": ["audio", "location"],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "聆听音乐",
@@ -86,6 +88,7 @@
 		"backgroundTextStyle": "light",
 		"enablePullDownRefresh": true
 	},
+	
 	"tabBar": {
 		"color": "#FFFFFF",
 		"selectedColor": "#C0C0C0",
@@ -99,12 +102,14 @@
 			"iconPath": "static/home.png",
 			"selectedIconPath": "static/home.png",
 			"text": "首页"
-		}, {
-			"pagePath": "pages/control/control",
-			"iconPath": "",
-			"selectedIconPath": "",
-			"text": "正在播放"
-		}, {
+		}, 
+		//{
+		// 	"pagePath": "pages/control/control",
+		// 	"iconPath": "",
+		// 	"selectedIconPath": "",
+		// 	"text": "正在播放"
+		// },
+		{
 			"pagePath": "pages/my/my",
 			"iconPath": "static/my.png",
 			"selectedIconPath": "static/my.png",

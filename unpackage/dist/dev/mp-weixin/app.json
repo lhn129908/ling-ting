@@ -14,6 +14,7 @@
     "pages/recents/recents",
     "pages/detail/detail"
   ],
+  "requiredBackgroundModes": ["audio", "location"],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "white",
@@ -37,12 +38,6 @@
         "iconPath": "static/home.png",
         "selectedIconPath": "static/home.png",
         "text": "首页"
-      },
-      {
-        "pagePath": "pages/control/control",
-        "iconPath": "",
-        "selectedIconPath": "",
-        "text": "正在播放"
       },
       {
         "pagePath": "pages/my/my",
