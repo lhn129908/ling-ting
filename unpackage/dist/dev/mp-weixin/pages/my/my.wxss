@@ -1,0 +1,7 @@
+
+.denglu{
+	widows: 100%;
+	height: 420rpx;
+	background-color:#ccc ;
+}
+

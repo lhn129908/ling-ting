@@ -1,0 +1,121 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/control/control",
+			"style": {
+				"navigationBarTitleText": "播放 "
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/sou/sou",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "视频"
+			}
+		},
+		{
+			"path": "pages/gedan/gedan",
+			"style": {
+				"navigationBarTitleText": "歌单"
+			}
+		},
+		{
+			"path": "pages/danmore/danmore",
+			"style": {
+				"navigationBarTitleText": "更多歌单"
+			}
+		},
+		{
+			"path": "pages/mvmore/mvmore",
+			"style": {
+				"navigationBarTitleText": "更多视频"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/zhuanji/zhuanji",
+			"style": {
+				"navigationBarTitleText": "专辑"
+			}
+		},
+		{
+			"path": "pages/recent/recent",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/recents/recents",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "聆听音乐",
+		"navigationBarBackgroundColor": "#f87373",
+		"backgroundColor": "#f87373",
+		"backgroundTextStyle": "light",
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+		"color": "#FFFFFF",
+		"selectedColor": "#C0C0C0",
+		"backgroundColor": "#f87373",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/home.png",
+			"selectedIconPath": "static/home.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/control/control",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "正在播放"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/my.png",
+			"selectedIconPath": "static/my.png",
+			"text": "我的"
+		}]
+		// "midButton": {
+		// 	"width": "80px",
+		// 	"height": "50px",
+		// 	"text": "文字",
+		// 	"iconPath": "",
+		// 	"iconWidth": "24px"
+		// }
+	}
+}
