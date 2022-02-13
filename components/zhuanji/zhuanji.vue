@@ -22,6 +22,7 @@
 		},
 		methods:{
 			zhuanjiclick(id){
+				console.log(id)
 				uni.navigateTo({
 					url:`/pages/gedan/gedan?id=${id}`
 				})
