@@ -1,0 +1,24 @@
+.DanQu .DanQu-sing {
+  display: flex;
+  margin: 0 50rpx;
+  justify-content: space-between;
+  border-bottom: 0.001rem solid #f2f3f2;
+  padding: 10rpx 20rpx;
+}
+.DanQu .DanQu-sing .DanQu-left {
+  margin: 10rpx;
+}
+.DanQu .DanQu-sing .DanQu-left :nth-child(1) {
+  font-size: 35rpx;
+  margin-top: 10rpx;
+}
+.DanQu .DanQu-sing .DanQu-left :nth-child(2) {
+  font-size: 26rpx;
+  color: #862e06;
+  margin-top: 10rpx;
+}
+.DanQu .DanQu-sing .DanQu-right {
+  margin: 10rpx;
+  line-height: 80rpx;
+}
+

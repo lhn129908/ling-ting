@@ -1,5 +1,5 @@
 {
-    "name" : "LingTing",
+    "name" : "XianYueGe",
     "appid" : "__UNI__ECAEC7D",
     "description" : "",
     "versionName" : "1.0.0",
@@ -60,7 +60,7 @@
         "usingComponents" : true,
         "permission" : {
             "scope.userLocation" : {
-                "desc" : ""
+                "desc" : "test"
             }
         }
     },
@@ -81,7 +81,7 @@
         "router" : {
             "mode" : "history"
         },
-        "title" : "聆听音乐",
+        "title" : "仙乐阁音乐",
         "devServer" : {
             "https" : true
         }

@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "更多歌单",
-  "usingComponents": {}
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
 }

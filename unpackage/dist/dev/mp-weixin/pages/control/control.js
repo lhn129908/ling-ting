@@ -137,10 +137,20 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 var _default =
 {
   data: function data() {
-    return {};
-
+    return {
+      id: null };
 
   },
+  onLoad: function onLoad(options, e) {
+    this.id = options.id;
+    console.log(this.id);
+    console.log(e);
+    console.log(JSON.parse(e.liebiao));
+  },
+  // onLoad(e) {
+  // 	console.log(e)
+  // 	console.log(JSON.parse(e.liebiao) )
+  // },
   methods: {} };exports.default = _default;
 
 /***/ })
