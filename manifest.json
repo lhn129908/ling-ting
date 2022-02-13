@@ -1,5 +1,5 @@
 {
-    "name" : "LingTing",
+    "name" : "XianYueGe",
     "appid" : "__UNI__ECAEC7D",
     "description" : "",
     "versionName" : "1.0.0",
@@ -50,7 +50,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wxaf3d2d76c57be3d3",
+        "appid" : "wxa7cf52a5619af22d",
         "setting" : {
             "urlCheck" : false,
             "es6" : true,
@@ -81,7 +81,7 @@
         "router" : {
             "mode" : "history"
         },
-        "title" : "聆听音乐",
+        "title" : "仙乐阁音乐",
         "devServer" : {
             "https" : true
         }

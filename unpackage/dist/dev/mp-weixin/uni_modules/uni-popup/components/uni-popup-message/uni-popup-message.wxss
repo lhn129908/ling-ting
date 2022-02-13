@@ -24,12 +24,12 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.uni-popup-message.data-v-38167fe2 {
+.uni-popup-message {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.uni-popup-message__box.data-v-38167fe2 {
+.uni-popup-message__box {
   background-color: #e1f3d8;
   padding: 10px 15px;
   border-color: #eee;
@@ -38,7 +38,7 @@
   flex: 1;
 }
 @media screen and (min-width: 500px) {
-.fixforpc-width.data-v-38167fe2 {
+.fixforpc-width {
     margin-top: 20px;
     border-radius: 4px;
     flex: none;
@@ -46,32 +46,32 @@
     max-width: 50%;
 }
 }
-.uni-popup-message-text.data-v-38167fe2 {
+.uni-popup-message-text {
   font-size: 14px;
   padding: 0;
 }
-.uni-popup__success.data-v-38167fe2 {
+.uni-popup__success {
   background-color: #e1f3d8;
 }
-.uni-popup__success-text.data-v-38167fe2 {
+.uni-popup__success-text {
   color: #67C23A;
 }
-.uni-popup__warn.data-v-38167fe2 {
+.uni-popup__warn {
   background-color: #faecd8;
 }
-.uni-popup__warn-text.data-v-38167fe2 {
+.uni-popup__warn-text {
   color: #E6A23C;
 }
-.uni-popup__error.data-v-38167fe2 {
+.uni-popup__error {
   background-color: #fde2e2;
 }
-.uni-popup__error-text.data-v-38167fe2 {
+.uni-popup__error-text {
   color: #F56C6C;
 }
-.uni-popup__info.data-v-38167fe2 {
+.uni-popup__info {
   background-color: #F2F6FC;
 }
-.uni-popup__info-text.data-v-38167fe2 {
+.uni-popup__info-text {
   color: #909399;
 }
 
