@@ -424,12 +424,22 @@
 			.new_songs_name {
 				font-size: 14px;
 				color: #666565;
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 1;
+				/* 指定显示文本的行数 */
+				overflow: hidden;
 			}
 
 			.new_songs_artist {
 				font-size: 10px;
 				color: #8f8f8f;
 				margin-top: 20rpx;
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 1;
+				/* 指定显示文本的行数 */
+				overflow: hidden;
 
 				image {
 					width: 30rpx;

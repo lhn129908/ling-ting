@@ -3243,7 +3243,7 @@ function createAnimation(option, _this) {
 
 /***/ }),
 
-/***/ 182:
+/***/ 19:
 /*!**********************************************************!*\
   !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
   \**********************************************************/
@@ -4042,7 +4042,7 @@ if (hadRuntime) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.requestGet = requestGet;exports.requestPost = requestPost;exports.simiURL = exports.simiURLH5 = exports.mvURL = exports.mvURLH5 = exports.tjURL = exports.tjURLH5 = exports.ListsURL = exports.ListsURLH5 = exports.FuzzySearchURL = exports.HotSearchURL = exports.Dan = exports.DanLei = exports.Mv = exports.PaiHang = exports.TuiMv = exports.TuiXin = exports.TuiDan = exports.LunboURL = void 0;var baseUrl = "http://101.35.3.52";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.requestGet = requestGet;exports.requestPost = requestPost;exports.simiURL = exports.simiURLH5 = exports.mvURL = exports.mvURLH5 = exports.tjURL = exports.tjURLH5 = exports.ListsURL = exports.ListsURLH5 = exports.FuzzySearchURL = exports.HotSearchURL = exports.Dan = exports.DanLei = exports.Mv = exports.PaiHang = exports.TuiMv = exports.TuiXin = exports.TuiDan = exports.LunboURL = void 0;var baseUrl = "http://101.35.3.52:888";
 
 function requestGet(url, data) {
   return new Promise(function (resolve, reject) {
@@ -4102,13 +4102,13 @@ exports.HotSearchURL = HotSearchURL;var FuzzySearchURL = "/search"; //GET
 exports.FuzzySearchURL = FuzzySearchURL;
 
 var ListsURLH5 = "/album";exports.ListsURLH5 = ListsURLH5;
-var ListsURL = "http://101.35.3.52/album";exports.ListsURL = ListsURL;
+var ListsURL = "http://101.35.3.52:888/album";exports.ListsURL = ListsURL;
 var tjURLH5 = "/playlist/detail";exports.tjURLH5 = tjURLH5;
-var tjURL = "http://101.35.3.52/playlist/detail";exports.tjURL = tjURL;
+var tjURL = "http://101.35.3.52:888/playlist/detail";exports.tjURL = tjURL;
 var mvURLH5 = "/mv/detail";exports.mvURLH5 = mvURLH5;
-var mvURL = "http://101.35.3.52/mv/detail";exports.mvURL = mvURL;
+var mvURL = "http://101.35.3.52:888/mv/detail";exports.mvURL = mvURL;
 var simiURLH5 = "/simi/mv";exports.simiURLH5 = simiURLH5;
-var simiURL = "http://101.35.3.52/simi/mv";exports.simiURL = simiURL;
+var simiURL = "http://101.35.3.52:888/simi/mv";exports.simiURL = simiURL;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! @dcloudio/uni-mp-weixin/dist/uni.api.esm.js */ 9)["default"]))
 
 /***/ }),
